@@ -35,7 +35,8 @@ body {
   display: flex;
 }
 
-.main-nav a:hover {
+.main-nav a:hover,
+.main-nav a:focus {
   color: #2196f3;
 }
 
@@ -237,7 +238,8 @@ footer {
   margin-right: 8px;
   border-radius: 4px;
 }
-.portfolio-grups button:hover {
+.portfolio-grups button:hover,
+.portfolio-grups button:focus {
   color: #ffffff;
   background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -348,7 +350,8 @@ a {
   fill: #afb1b8;
 }
 
-.social-link :hover {
+.social-link :hover,
+.social-link :focus {
   background-color: #2196f3;
   fill: #fff;
 }
@@ -378,24 +381,23 @@ a {
   padding-bottom: 94px;
 }
 
+.clients-icon {
+  fill: currentColor;
+}
+
 .clients-link {
-  width: 170px;
-  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-sizing: border-box;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  width: 170px;
+  height: 90px;
+  color: #afb1b8;
 }
 
-.clients-icon {
-  fill: #afb1b8;
-  width: 100%;
-}
-
-.clients-item :hover {
-  box-sizing: border-box;
-  fill: #2196f3;
+.clients-link:hover,
+.clients-link:focus {
+  color: #2196f3;
   border-color: #2196f3;
 }
